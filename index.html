@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MakeUp API</title>
+    <style>
+        .title {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .card-container {
+            display: flex; /* Exibe os cards em uma linha flexível */
+            flex-wrap: wrap; /* Permite a quebra para a próxima linha */
+            gap: 10px; /* Espaçamento entre os cards */
+        }
+        .card {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 10px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card img {
+            max-width: 100%;
+            height: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="title">Bem-Vindo(a) aos Produtos de Maquiagem</h1>
+    <div id="products-container"></div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
